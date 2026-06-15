@@ -4,22 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Odin Links and Images</title>
+
+    <style>
+        .container { max-width: 250px; margin: 20px auto; }
+
+    </style>
 </head>
 <body>
+    
     <!-- This links to external page on other website on the internet -->
     <!-- Use target="_blank" for external links and make sure to add rel="noreferrer" to protect your information from phishing attacks and for privacy -->
     <!-- if you dont use target="_blank" then you dont need to add rel="noreferrer" -->
-    <h1>Homepage</h1>
-    <a href="https://www.theodinproject.com/about" target="_blank" rel="noreferrer">About The Odin Project</a>
-
-    <a href="./Pages/about.html">About</a>
+    <div class="container" style="text-align: center;">  
+        <h1>Homepage</h1>
     
-     <img src="https://www.theodinproject.com/mstile-310x310.png" alt="The Odin Project Logo" height="310" width="310">
+        <p style="text-align: center;">Welcome to my homepage! Here you can find links to my about page and to The Odin Project's about page.</p>
+    </div>
 
-    <!-- Make sure to use images that are free to use and have the proper license.Give credit to the creator’s name and contact info in the README file. To find them - Google images and in image results -> Tools -> Usage rights -> “Creative Commons”. Choose & click on a image and click license details. It is recommended to always review the license requirements of any images you want to use. -->
+    <div class="container" style="text-align: left;">
+        
+        <img src="https://www.theodinproject.com/mstile-310x310.png" alt="The Odin Project Logo" height="32" width="32">
 
-     <!-- Every image should have an alt="" attribute. This is used to describe an image. It is also used with screen readers to describe what the image is to visually impaired users.-->
-    <img src="./images/dog.jpg" alt="Charles Deluvio Dog" height="250" width="210">
+        <a href="https://www.theodinproject.com/about" target="_blank" rel="noreferrer">About The Odin Project</a>
 
+        <br>
+        <img src="./img/dog.jpg" alt="Dougie the Dog" height="32" width="32">
+        <a href="./Pages/about.html">About</a>
+
+        <!-- Make sure to use images that are free to use and have the proper license.Give credit to the creator’s name and contact info in the README file. To find them - Google images and in image results -> Tools -> Usage rights -> “Creative Commons”. Choose & click on a image and click license details. It is recommended to always review the license requirements of any images you want to use. -->
+
+        <!-- Every image should have an alt="" attribute. This is used to describe an image. It is also used with screen readers to describe what the image is to visually impaired users.-->
+        
+    
+    </div>
 </body>
 </html>
